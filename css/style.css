@@ -155,7 +155,7 @@ a img {
   font-size: 18px;
   font-weight: 700; }
 
-/* article */
+/* Article */
 .article__time {
   color: #616161;
   font-size: 14px;
@@ -210,7 +210,7 @@ a img {
   padding-bottom: 13px; }
 
 .article-news-item__head {
-  color: black;
+  color: #000;
   font: 700 20px/1.3 'Proxima Nova';
   text-decoration: none;
   padding-bottom: 24px; }
@@ -221,5 +221,7 @@ a img {
 .article-news-item p {
   color: #414042;
   font: 400 16px/1.6 'Proxima Nova'; }
+
+/* Footer */
 
 /*# sourceMappingURL=style.css.map */
