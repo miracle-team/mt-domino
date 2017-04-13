@@ -12,7 +12,7 @@
             "hirse.outline.enabled": false,
             "useTabChar": false,
             "spaceUnits": 2,
-            "themes.theme": "monokai-theme",
+            "themes.theme": "dark-wild-chery",
             "fonts.fontSize": "14px"
         }
     }

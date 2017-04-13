@@ -14,7 +14,8 @@ a {
   font: 400 18px '', sans-serif;
   text-decoration: none;
   transition: 300ms;
-  display: inline-block; }
+  display: inline-block;
+  line-height: 1; }
   a:hover, a:focus {
     text-decoration: none; }
 
@@ -34,7 +35,7 @@ a img {
   clear: both; }
 
 .container {
-  width: 1280px;
+  width: 1336px;
   margin: 0 auto;
   position: relative; }
 
