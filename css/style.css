@@ -8,14 +8,15 @@
   outline: none; }
 
 body {
-  font: 400 18px '', sans-serif; }
+  font: 400 16px 'Proxima Nova', sans-serif; }
 
 a {
-  font: 400 18px '', sans-serif;
-  text-decoration: none;
+  font: 400 16px 'Proxima Nova', sans-serif;
   transition: 300ms;
   display: inline-block;
-  line-height: 1; }
+  line-height: 1;
+  color: #008dd0;
+  text-decoration: underline; }
   a:hover, a:focus {
     text-decoration: none; }
 
