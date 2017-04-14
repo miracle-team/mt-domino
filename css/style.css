@@ -385,6 +385,8 @@ a img {
     padding-right: 40px; }
     .nav li:first-child {
       padding-left: 65px; }
+    .nav li:last-child {
+      padding-right: 0; }
   .nav a {
     color: #414042;
     text-decoration: none; }
@@ -392,6 +394,9 @@ a img {
       font-weight: 700; }
     .nav a:hover {
       color: #008dd0; }
+
+.burger-wrap {
+  display: none; }
 
 .add-declare {
   float: right;

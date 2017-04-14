@@ -483,6 +483,9 @@ a img {
     &:first-child {
       padding-left: 65px;
     }
+    &:last-child {
+      padding-right: 0;
+    }
   }
   a {
     color: #414042;
@@ -494,6 +497,10 @@ a img {
       color: #008dd0;
     }
   }
+}
+
+.burger-wrap {
+  display: none;
 }
 
 .add-declare {
