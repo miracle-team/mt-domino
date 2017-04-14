@@ -51,6 +51,7 @@ a img {
   position: relative;
 }
 
+
 /* Bread */
 
 .bread-wrap {
@@ -77,6 +78,7 @@ a img {
   display: none;
 }
 
+
 /* News */
 
 .sidebar {
@@ -101,6 +103,7 @@ a img {
 .sidebar ul li a {
   margin-bottom: 24px;
 }
+
 .content {
   margin-left: 342px;
 }
@@ -193,6 +196,7 @@ a img {
   font-weight: 700;
 }
 
+
 /* Article */
 
 .article__time {
@@ -275,7 +279,9 @@ a img {
   font: 400 16px/1.6 'Proxima Nova';
 }
 
+
 /* Footer */
+
 .footer-wrap {
   background: #f1f2f2;
 }
@@ -284,13 +290,16 @@ a img {
   padding-bottom: 40px;
   padding-top: 45px;
 }
+
 .footer-logos {
   float: left;
   width: 310px;
   text-align: center;
 }
+
 .footer-logos a:first-child {
-  margin-bottom: 65px;;
+  margin-bottom: 65px;
+  ;
 }
 
 .footer-info {
@@ -318,7 +327,7 @@ a img {
   padding-bottom: 12px;
 }
 
-.footer-info  ul li a.footer-info__mail {
+.footer-info ul li a.footer-info__mail {
   color: #008dd0;
   padding-top: 12px;
 }
@@ -379,4 +388,82 @@ a img {
 .omg {
   float: right;
   margin-top: 5px;
+}
+
+
+/* Header */
+
+.header {
+  padding-bottom: 23px;
+}
+
+.logo {
+  float: left;
+  padding-top: 25px;
+}
+
+.header-address {
+  float: left;
+  margin-left: 103px;
+  padding-top: 30px;
+  p {
+    color: #414042;
+    padding-bottom: 12px;
+  }
+}
+
+.callback {
+  float: left;
+  margin-left: 90px;
+  padding-top: 23px;
+  &-content {
+    display: inline-block;
+  }
+  &__tel {
+    font-size: 28px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #414042;
+    padding-bottom: 9px;
+  }
+  &__link {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3px;
+    margin-left: 30px;
+    line-height: 45px;
+    padding: 0 24px;
+    border-bottom: 2px solid #909091;
+    background: #a1cd5e;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    &:hover {
+      background: #75b218;
+    }
+  }
+}
+
+.objects {
+  float: right;
+  padding-top: 27px;
+  &__head {
+    font-size: 24px;
+    color: #414042;
+    padding-bottom: 8px;
+    position: relative;
+    &:after {
+      content: '';
+      display: block;
+      width: 15px;
+      height: 14px;
+      background: url(../images/header-star.png) no-repeat 50%;
+      position: absolute;
+      top: 4px;
+      left: -32px;
+    }
+  }
+  p {
+    color: #414042;
+  }
 }
