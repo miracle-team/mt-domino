@@ -587,6 +587,8 @@ a img {
   border-top: 1px solid #d7d7d7;
   padding-top: 45px;
   margin-top: 21px;
+  position: relative;
+  margin-bottom: 80px;
   &-item {
     position: relative;
     border: 1px solid #bcbec0;
@@ -610,5 +612,45 @@ a img {
       color: #414042;
       line-height: 1.5;
     }
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: -50px;
+    width: 140px;
+    left: 50%;
+    margin-left: -70px;
+    text-align: center;
+    li {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 9px;
+      width: 15px;
+      height: 15px;
+      background-color: #e1e1e1;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 300ms;
+      &.slick-active {
+        background: #f37043;
+      }
+    }
+    button {
+      display: none;
+    }
+  }
+  .slick-arrow {
+    background: url(../images/feedbacks-arrows.png) no-repeat 0;
+    width: 35px;
+    height: 24px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: -54px;
+    left: 50%;
+    margin-left: -105px;
+  }
+  .slick-next {
+    background-position: 100%;
+    margin-left: 75px;
   }
 }

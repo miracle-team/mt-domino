@@ -6,6 +6,13 @@ $(document).ready(function() {
     $('.nav-list').toggleClass('active');
     return false;
   });
+  
+  // Sliders
+  
+  $('.feedbacks-carousel').slick({
+    speed: 300,
+    dots: true
+  });
 
 });
 
