@@ -518,4 +518,38 @@ a img {
     background-position: 100%;
     margin-left: 75px; }
 
+/* Advan */
+.advan-wrap {
+  background: #f1f2f2;
+  padding-top: 56px;
+  padding-bottom: 48px; }
+
+.advan {
+  font-size: 0; }
+  .advan__head {
+    color: #414042;
+    font-size: 32px;
+    padding-bottom: 40px;
+    text-align: center; }
+  .advan-item {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+    position: relative;
+    padding: 36px 34px 18px 100px;
+    border-right: 1px solid #b7b7b7; }
+    .advan-item:last-child {
+      border-right: none; }
+  .advan img {
+    position: absolute;
+    top: 15px;
+    left: 20px; }
+  .advan h3 {
+    font: 700 24px/1.3 'Proxima Nova';
+    color: #414042;
+    padding-bottom: 10px; }
+  .advan p {
+    color: #414042;
+    font: 400 16px/1.4 'Proxima Nova'; }
+
 /*# sourceMappingURL=style.css.map */
