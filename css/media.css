@@ -83,6 +83,13 @@
     display: block;
     margin-bottom: 15px;
   }
+  .sale-item {
+    width: 310px;
+    margin: 0 6px 12px !important;
+  }
+  .nav__logo {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -260,6 +267,9 @@
   .advan-item {
     padding-left: 24px;
   }
+  .rating-item {
+    padding: 0 10px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -382,5 +392,20 @@
   
   .advan h3 {
     font-size: 18px;
+  }
+  .sale-item {
+    width: 278px;
+  }
+  .sale-form {
+    height: 420px;
+  }
+  .sale-form__input input {
+    width: 129px;
+  }
+  .sale-item-content {
+    padding: 0 10px !important;
+  }
+  .rating-carousel .slick-arrow {
+    display: none !important;
   }
 }
